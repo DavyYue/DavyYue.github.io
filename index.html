@@ -55,12 +55,12 @@
 						</header>
 						<span class="image"><img src="images/profile.jpg" alt="" /></span>
 					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
+					<a href="#aboutme" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/bottom.jpg" alt="NYC Skyline" /></span>
+			<!-- About Me -->
+				<section id="aboutme" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/bottom1.jpg" alt="NYC Skyline" /></span>
 					<div class="regularcontent">
 						<div class="container">
 							<div class="row">
@@ -119,11 +119,11 @@
 							<li><a href="#" class="button">Learn More</a></li>
 						</ul>
 					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
+					<a href="#IAmA" class="goto-next scrolly">Next</a>
 				</section>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
+			<!-- IAMA -->
+				<section id="IAmA" class="wrapper style1 special fade-up">
 					<div class="container">
 						<header class="major">
 							<h2>Experience</h2>
@@ -231,93 +231,91 @@
 							</section>
 						<footer class="major">
 							<ul class="actions">
-								<li><a href="#" class="button">Magna sed feugiat</a></li>
+								<li><a href="#form" class="button" onclick="scrollWin(0, 1600)">Contact Me</a></li>
 							</ul>
 						</footer>
 					</div>
 				</section>
 
 			<!-- Form -->
-				<section id="form" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/bottom2.jpg" alt="" /></span>
+				<section id="form">
+					<img src="images/bottom2.jpg" alt="" style="width:100%;border-style:solid;border-bottom-width:100%;border-bottom-length:1.2em;border-color:#EC4141" />
 					<div class="regularcontent">
-						<div class="container">
+						<div class="container" >
 							<p></br></p>
-							<header class="major" style="margin-top:50px;">
+							<header class="major">
 								<h2 style="text-align:center;">Contact Me</h2>
 							</header>
-
-								<p style="margin-bottom:40px;text-align:center;">
-									Looking to hire a website developer software engineer?</br>
-									Want to learn more about my recent projects? </br>
-									Have some advice for my website or projects? </br>
-									Fill out the form below!</p>
-								<p style="margin-bottom:60px;text-align:center;color:#EC4141;font-style:bold;font-size:1.3em">
-									Form under construction</br>
-									Meanwhile, please <a href="mailto:davy.yue@vanderbilt.edu">email me</a></p>
+							
+							<p style="margin-bottom:40px;margin-top:-40px;text-align:center;">
+								Looking to hire a website developer software engineer?</br>
+								Want to learn more about my recent projects? </br>
+								Have some advice for my website or projects? </br>
+								Fill out the form below!</p>
+							<p style="margin-bottom:60px;text-align:center;color:#EC4141;font-style:bold;font-size:1.3em">
+								Form under construction</br>
+								Meanwhile, please <a href="mailto:davy.yue@vanderbilt.edu">email me</a></p>
 
 
 							<!-- https://script.google.com/macros/u/1/s/AKfycbxoOcV5qB9eZQiSCsWAYT9dOs5X7_0PN6ufDp4siPS-mPOO2tpO/exec -->
 							
-								<div class="container 75%">
-									<form method="GET" action="mailto:davy.yue@vanderbilt.edu" enctype="text/plain">
-										<div class="row 50%">
-											<div class="6u 12u(narrow)">
-												<input type="text" name="First_Name" id="First_Name" value="" placeholder="First name" />
-											</div>
-											<div class="6u 12u(narrow)">
-												<input type="text" name="Last_Name" id="Last_Name" value="" placeholder="Last name" />
-											</div>
-											<div class="6u 12u(narrow)">
-												<input type="text" name="Phone" id="Phone" value="" placeholder="(012) 345 - 6789" />
-											</div>
-											<div class="6u 12u(narrow)">
-												<input type="text" name="Email" id="Email" value="" placeholder="first.last@domain.com" />
+							<div class="container 75%">
+								<form method="GET" action="mailto:davy.yue@vanderbilt.edu" enctype="text/plain">
+									<div class="row 50%">
+										<div class="6u 12u(narrow)">
+											<input type="text" name="First_Name" id="First_Name" value="" placeholder="First name" />
+										</div>
+										<div class="6u 12u(narrow)">
+											<input type="text" name="Last_Name" id="Last_Name" value="" placeholder="Last name" />
+										</div>
+										<div class="6u 12u(narrow)">
+											<input type="text" name="Phone" id="Phone" value="" placeholder="(012) 345 - 6789" />
+										</div>
+										<div class="6u 12u(narrow)">
+											<input type="text" name="Email" id="Email" value="" placeholder="first.last@domain.com" />
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<div class="select" tabindex="-1">
+												<select name="Topic" id="Topic">
+													<option value="">Choose a Topic</option>
+													<option value="1">Job opening for developer or software engineer position</option>
+													<option value="2">More information about current projects</option>
+													<option value="3">General Inquiry</option>
+												</select>
 											</div>
 										</div>
-										<div class="row 50%">
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<input type="text" name="Subject" id="Subject" value="" placeholder="Enter your subject" />
+										</div>
+									</div>
+									<div class="row 50%">
+										<div class="12u">
+											<textarea name="Message" id="Message" placeholder="Enter your message"></textarea>
+										</div>
+									</div>
+										<div class="row">
 											<div class="12u">
-												<div class="select" tabindex="-1">
-													<select name="Topic" id="Topic">
-														<option value="">Choose a Topic</option>
-														<option value="1">Job opening for developer or software engineer position</option>
-														<option value="2">More information about current projects</option>
-														<option value="3">General Inquiry</option>
-													</select>
-												</div>
+												<ul class="actions">
+													<li><input type="submit" class="button" id="submit-form" value="Send Message" /></li>
+													<li><input type="reset" class="button alt" value="Clear Form" /></li>
+												</ul>
 											</div>
+											<script>
+											</script>
 										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<input type="text" name="Subject" id="Subject" value="" placeholder="Enter your subject" />
-											</div>
-										</div>
-										<div class="row 50%">
-											<div class="12u">
-												<textarea name="Message" id="Message" placeholder="Enter your message"></textarea>
-											</div>
-										</div>
-											<div class="row">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" class="button" id="submit-form" value="Send Message" /></li>
-														<li><input type="reset" class="button alt" value="Clear Form" /></li>
-													</ul>
-												</div>
-												<script>
-													
-												</script>
-											</div>
-										</div>
-									</form>
-								</div>
-							
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</section>
 	
 			<!-- Footer -->
-				<section id="footer">
+				<section id="footer" >
 					<ul class="icons">
 						<li><a href="https://www.facebook.com/DavyYueNotDavyMe" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://www.linkedin.com/in/davyyue/" target="_blank" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
