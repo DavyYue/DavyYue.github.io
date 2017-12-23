@@ -8,6 +8,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
 		
 		<style>
 			/* circle image */
@@ -49,9 +50,9 @@
 				<section id="banner">
 					<div class="regularcontent">
 						<header>
-							<h2 style="font-size:300%;font-weight:bold" >Davy Yue</h2>
-							<p>Student. Hacker. Thinker. Painter.<br />
-							 Changemaker.</p>
+							<h1 style="font-family: 'Roboto Mono', monospace;font-size:54px;font-weight:bold;font-stretch: expanded" >Davy Yue</h1>
+							<h1 style="font-family: 'Roboto Mono', monospace;font-size:32px;font-stretch: semi-expanded;margin-top:30px">I AM PASSIONATE ABOUT</h1>
+							<h1 style="font-family: 'Roboto Mono', monospace;font-size:28px;font-stretch: semi-expanded"><span id="typed"></span></h1>
 						</header>
 						<span class="image"><img src="images/profile.jpg" alt="" /></span>
 					</div>
@@ -330,15 +331,23 @@
 
 		</div>
 
-		<!-- Scripts -->
+		<!-- Default Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.dropotron.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+		<!-- My Scripts -->
+			<script src="assets/js/typed.min.js"></script>
+			<script>
+				function newTyped(){}$(function(){$("#typed").typed({
+					// Change to edit type effect
+					strings: ["software development", "hacking", "community building", "fitness", "inclusion", "what life has to offer"],
+					typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+				</script>
 
 	</body>
 </html>
