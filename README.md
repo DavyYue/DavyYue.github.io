@@ -3,7 +3,7 @@
 This site highlights some of my work as a software engineer. It can be found [here](https://davyyue.com). Please reach out through the site with any questions you might have.
 
 
-Copyright 2016-2018 Davy Yue | Design Framework: [HTML5 UP](https://html5up.net/) | @ajlkn
+Copyright 2016-2018 Davy Yue
 
 # Credits:
 
