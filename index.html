@@ -58,7 +58,7 @@
 							<h1 style="font-family: 'Roboto Mono', monospace;font-size:54px;font-weight:bold;font-stretch: expanded" >Davy Yue</h1>
 							<h1 style="font-family: 'Roboto Mono', monospace;font-size:32px;font-stretch: semi-expanded;margin-top:30px">I AM PASSIONATE ABOUT</h1>
 							<h1 style="font-family: 'Roboto Mono', monospace;font-size:28px;font-stretch: semi-expanded"><span id="typed"></span></h1>
-							<h1 style="font-family: 'Roboto Mono', monospace;font-size:20px;color:rgb(0, 255, 0);margin-top:70px"> < site under construction > </h1>
+							<h1 class="blink_me" style="font-family: 'Roboto Mono', monospace;font-size:15px;color:rgb(0, 255, 0);margin-top:90px"> < site under construction > </h1>
 						</header>
 						<span class="image"><img src="images/profile_circle.png" alt="" /></span>
 					</div>
@@ -331,11 +331,17 @@
 		<!-- My Scripts -->
 			<script src="assets/js/typed.min.js"></script>
 			<script>
+				//Typed animation
 				function newTyped(){}$(function(){$("#typed").typed({
 					// Change to edit type effect
 					strings: ["software development", "hacking", "community building", "molecular simulations", "fitness", "inclusion", "origami", "graphic design", "painting", "what life has to offer"],
 					typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-				</script>
+			
+					//Blinking animation
+					(function blink() { 
+  						$('.blink_me').fadeOut(3000).fadeIn(3000, blink); 
+					})();
+			</script>
 
 	</body>
 </html>
