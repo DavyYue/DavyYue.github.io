@@ -159,27 +159,27 @@
 				}
 
 		.tiles article.style1 > .image:before {
-			background: linear-gradient(to bottom, #f2849e 0%, #803244 100%);;
+			background: linear-gradient(to bottom, #ff8ca7 0%, #7c2d40 100%);
 		}
 
 		.tiles article.style2 > .image:before {
-			background-color: linear-gradient(to bottom, #7ecaf6 0%, #7fcaf6 100%);
+			background: linear-gradient(to bottom, #7ecaf6 0%, #7fcaf6 100%);
 		}
 
 		.tiles article.style3 > .image:before { 
-			background-color: linear-gradient(to bottom, #7bd0c1 0%, #7bd0c1 100%);;
+			background: linear-gradient(to bottom, #7bd0c1 0%, #7bd0c1 100%);
 		}
 
 		.tiles article.style4 > .image:before { 
-			background-color: linear-gradient(to bottom, #c75b9b 0%, #c75b9b 100%);;
+			background: linear-gradient(to bottom, #c75b9b 0%, #c75b9b 100%);
 		}
 
 		.tiles article.style5 > .image:before { 
-			background-color: linear-gradient(to bottom, #ae85ca 0%, #ae85ca 100%);
+			background: linear-gradient(to bottom, #ae85ca 0%, #ae85ca 100%);
 		}
 
 		.tiles article.style6 > .image:before { 
-			background-color: linear-gradient(to bottom, #8499e7 0%, #8499e7 100%);;
+			background: linear-gradient(to bottom, #8499e7 0%, #8499e7 100%);
 		}
 
 		body:not(.is-touch) .tiles article:hover > .image {
