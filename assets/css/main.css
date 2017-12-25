@@ -159,7 +159,7 @@
 				}
 
 		.tiles article.style1 > .image:before {
-			background: linear-gradient(to bottom, #ff8ca7 0%, #7c2d40 100%);
+			background: linear-gradient(to bottom, #f88ea7 0%, #5f2533 100%);
 		}
 
 		.tiles article.style2 > .image:before {
@@ -171,15 +171,15 @@
 		}
 
 		.tiles article.style4 > .image:before { 
-			background: linear-gradient(to bottom, #fd86ce 0%, #752153 100%);
+			background: linear-gradient(to bottom, #fd97d4 0%, #5a214b 100%);
 		}
 
 		.tiles article.style5 > .image:before { 
-			background: linear-gradient(to bottom, #d095f8 0%, #37164d 100%);
+			background: linear-gradient(to bottom, #d095f8 0%, #34124b 100%);
 		}
 
 		.tiles article.style6 > .image:before { 
-			background: linear-gradient(to bottom, #89a3fd 0%, #263775 100%);
+			background: linear-gradient(to bottom, #95acff 0%, #1f294b 100%);
 		}
 
 		body:not(.is-touch) .tiles article:hover > .image {
@@ -190,7 +190,6 @@
 		}
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
-				background-color: #333333;
 				opacity: 0.35;
 			}
 
