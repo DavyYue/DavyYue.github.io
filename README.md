@@ -1,6 +1,7 @@
 # Personal Website
 
-This site highlights some of my work as a software engineer. It can be found [here](https://davyyue.com). Please reach out through the site with any questions you might have.
+This site highlights some of my work as a software engineer and can be found [here](https://davyyue.com). 
+Please reach out through the site with any questions you might have.
 
 
 Copyright 2016-2018 Davy Yue
