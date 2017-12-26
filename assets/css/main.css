@@ -191,7 +191,7 @@
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
 				opacity: 0.35;
-				background: rgba(0, 0, 0, 0.8);
+				background: rgba(0, 0, 0, 0.93);
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image:after {
