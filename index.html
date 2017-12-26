@@ -335,12 +335,13 @@
 				function newTyped(){}$(function(){$("#typed").typed({
 					// Change to edit type effect
 					strings: ["software development", "hacking", "community building", "molecular simulations", "fitness", "inclusion", "origami", "graphic design", "painting", "what life has to offer"],
-					typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
+					typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})}
+					);
 			
-					//Blinking animation
-					(function blink() { 
-  						$('.blink_me').fadeOut(3000).fadeIn(3000, blink); 
-					})();
+				//Blinking animation
+				(function blink() { 
+  					$('.blink_me').fadeOut(3000).fadeIn(3000, blink); 
+				})();
 			</script>
 
 	</body>
