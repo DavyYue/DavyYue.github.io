@@ -7,6 +7,71 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
+/* magic button hover effect - appears and scales from bottom */
+.magic-btn p {
+} 
+
+.magic-btn::before {
+	content: ' ';
+	position: absolute;
+	z-index: -1;
+	bottom: 2px;
+	left: 1px;
+	padding: 0 2px 2px;
+	
+	width: calc(100% + 2px);
+	height: 3px;
+	border-bottom: 1px solid rgb(100, 12, 12);
+	
+	transition: 0.4s;
+}
+
+.magic-btn::after {
+	content: ' ';
+	position: absolute;
+	z-index: -1;
+	bottom: 0;
+	left: calc(50% - 4px);
+	padding: 0 2px;
+	
+	width: 0;
+	height: 0;
+	
+	border: 1px solid transparent;
+	
+	transition: 0.4s;
+}
+	
+.magic-btn:hover::before {
+	border-color: transparent;
+}
+
+.magic-btn:hover::after {
+	width: 120%;
+	height: 1.7em;
+	left: -.95em;
+	bottom: 0.02em;
+	padding: 0.5em 1em;
+	border-color: rgb(146, 19, 19);
+	background-color: rgb(128, 0, 0;
+	border-radius: 2.5em;
+}
+
+.magic-btn {
+	display: inline-block;
+	
+	transition: 0.3s;
+	transition-delay: 0s;
+	transform: scale(1);
+	}
+
+.magic-btn:hover {
+	color: #fff;	
+	transform: scale(1.4);
+	transition-delay: 0.11s;
+}
+
 /* Pop-up Overlay Animation */
 .popup{
 	display: none;
