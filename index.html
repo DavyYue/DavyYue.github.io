@@ -382,8 +382,10 @@
 					$('.popup-trigger').on('click',function(){
 						$('.popup').css({
 							'display':'block',
-							'transform':'translateY(0)',
-							'z-index':'999'
+							'transform':'translateY(0%)',
+      						'z-index':'999',
+							'transition': 'all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55)',
+								'-webkit-transition': 'all 900ms cubic-bezier(0.68, -0.55, 0.265, 1.55)'
 						});
 						
 						$('body').addClass('overlay');
