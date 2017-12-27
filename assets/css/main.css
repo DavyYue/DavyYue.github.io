@@ -9,8 +9,6 @@
 */
 
 /* magic button hover effect - appears and scales from bottom */
-.magic-btn p {
-} 
 
 .magic-btn::before {
 	content: ' ';
@@ -34,7 +32,7 @@
 	bottom: 0;
 	left: calc(50% - 4px);
 	padding: 0 2px;
-	
+	color: #fff;
 	width: 0;
 	height: 0;
 	
@@ -53,8 +51,9 @@
 	left: -.95em;
 	bottom: 0.02em;
 	padding: 0.5em 1em;
-	border-color: rgb(146, 19, 19);
-	background-color: rgb(128, 0, 0;
+	color: #fff;
+	border-color: rgb(172, 37, 37);
+	background-color: rgb(75, 1, 1);
 	border-radius: 2.5em;
 }
 
@@ -66,8 +65,7 @@
 	transform: scale(1);
 	}
 
-.magic-btn:hover {
-	color: #fff;	
+.magic-btn:hover {	
 	transform: scale(1.4);
 	transition-delay: 0.11s;
 }
