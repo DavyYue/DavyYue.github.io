@@ -123,13 +123,14 @@ Primary style
 	color: #ffffff;
 	line-height: 4em;
 	white-space: nowrap;
-	font-weight: 700;
+	font-weight: 600;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-transition: color 0.2s 0.3s, width 0.3s 0s;
 	-moz-transition: color 0.2s 0.3s, width 0.3s 0s;
 	transition: color 0.2s 0.3s, width 0.3s 0s;
-  }
+	}
+	
   .cd-modal-action .btn.to-circle {
 	width: 4em;
 	color: transparent;
@@ -173,7 +174,7 @@ Primary style
 	height: 50px;
 	width: 50px;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.3) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-close_copy.svg) no-repeat center center;
+	background: rgba(0, 0, 0, 0.281) url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-close_copy.svg) no-repeat center center;
 	/* image replacement */
 	overflow: hidden;
 	text-indent: 100%;
@@ -195,7 +196,7 @@ Primary style
 	transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
   }
   .no-touch .cd-modal-close:hover {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(26, 26, 26, 0.507);
   }
   .modal-is-visible .cd-modal-close {
 	visibility: visible;
@@ -211,7 +212,8 @@ Primary style
   }
   @media only screen and (min-width: 768px) {
 	.cd-modal-close {
-	  top: 70px;
+	top: 50px;
+	border: 2px #ffffff;
 	}
   }
   
