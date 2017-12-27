@@ -110,16 +110,18 @@ Primary style
   
   .cd-modal-action {
 	position: relative;
-  }
+	}
+	
   .cd-modal-action .btn, .cd-modal-action .cd-modal-bg {
 	display: inline-block;
 	height: 4em;
 	background-color: #001429;
-	border: 2px #ffffff;
-  }
+	}
+	
   .cd-modal-action .btn {
 	width: 12.5em;
 	border-radius: 5em;
+	border: 2px #ffffff;
 	color: #ffffff;
 	line-height: 4em;
 	white-space: nowrap;
@@ -130,7 +132,13 @@ Primary style
 	-moz-transition: color 0.2s 0.3s, width 0.3s 0s;
 	transition: color 0.2s 0.3s, width 0.3s 0s;
 	}
-	
+
+	.cd-modal-action .btn:hover{
+		width: 13em;
+		background-color: #3192f3;
+		color: #07192b;
+	}
+
   .cd-modal-action .btn.to-circle {
 	width: 4em;
 	color: transparent;
