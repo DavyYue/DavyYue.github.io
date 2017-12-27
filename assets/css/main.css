@@ -73,7 +73,7 @@
 /* Pop-up Overlay Animation */
 .popup{
 	display: none;
-	width:700px;
+	width:850px;
 	height:500px;
 	background:#fff;
 	border-radius:5px;
@@ -84,8 +84,8 @@
 	font-size:2em;
 	z-index:999;
 	position:absolute;
-	top:40px;
-	left:200px;
+	top:20px;
+	left:90px;
 	transform:translateY(-300%);
 	box-shadow:0px 0px 20px rgba(56,56,56,.2);
 	-moz-box-shadow: 0px 0px 20px rgba(56,56,56,.2);
@@ -96,7 +96,7 @@
 	color:#431c81;
 	text-transform:capitalize;
 	font-weight:200;
-	font-size:1.1em;
+	font-size: 1em;
 	position:relative;
 	top: 30px;
 	left:-200%;
@@ -111,7 +111,7 @@
 	text-align:center;
 	margin-top:50px;
 	font-weight:200;
-	font-size:1em;
+	font-size:.7em;
 	position:relative;
 	top: 70px;
 	left:-200%;
@@ -132,7 +132,7 @@
 	-webkit-transition:.5s;
 	transition:.5s;
   }
-  
+
 
 /* Tiles */
 
