@@ -68,8 +68,8 @@ Primary style
 	height: 60px;
 	pointer-events: none;
 	background: transparent;
-	background: -webkit-linear-gradient( bottom , #34383c, rgba(52, 56, 60, 0));
-	background: linear-gradient(to top, #34383c, rgba(52, 56, 60, 0));
+	background: -webkit-linear-gradient( bottom , #0f1f30, rgba(0, 0, 0, 0));
+	background: linear-gradient(to top, #0f1d2b, rgba(0, 0, 0, 0));
   }
   .cd-modal .cd-modal-content {
 	height: 100%;
@@ -114,7 +114,8 @@ Primary style
   .cd-modal-action .btn, .cd-modal-action .cd-modal-bg {
 	display: inline-block;
 	height: 4em;
-	background-color: #34383c;
+	background-color: #091522;
+	border: 0px #ffffff;
   }
   .cd-modal-action .btn {
 	width: 12.5em;
