@@ -8,7 +8,7 @@ Primary style
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
   }
-  
+
   body.overflow-hidden {
 	/* used when modal is visible */
 	overflow: hidden;
@@ -22,7 +22,6 @@ Primary style
   .cd-section {
 	padding: 2em 5%;
 	text-align: center;
-	background-color: #03bb91;
   }
   .cd-section p {
 	margin: 2em 0;
@@ -106,10 +105,6 @@ Primary style
   @media only screen and (min-width: 1170px) {
 	.cd-modal .cd-modal-content {
 	  padding: 6em 20%;
-	}
-	.cd-modal p {
-	  font-size: 2rem;
-	  line-height: 2;
 	}
   }
   
