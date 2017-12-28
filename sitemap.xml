@@ -1,3 +1,41 @@
-User-agent:*
-Disallow:
-Sitemap: https://www.davyyue.com/sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+        <loc>https://www.davyyue.com/</loc>
+        <lastmod>2017-12-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>/images/profile_circle.png</image:loc>
+            <image:title>Davy Yue</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>/images/background02.jpg</image:loc>
+            <image:title>Origami Modular Dodecahedron</image:title>
+        </image:image>
+   </url>
+   <url>
+        <loc>https://www.davyyue.com/mccabe_research_group</loc>
+        <lastmod>2017-12-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>/screencaps/banner.jpg</image:loc>
+            <image:title>Professor Clare McCabe Research Group</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>/screencaps/sample_gallery.jpg</image:loc>
+            <image:title>Multiscale Modeling and Simulation</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>/screencaps/why_MuMS.jpg</image:loc>
+            <image:title>Why MUMS</image:title>
+        </image:image>
+   </url>
+   <url>
+      <loc>https://www.davyyue.com/Thanks_Mom_and_Dad</loc>
+      <lastmod>2017-12-25</lastmod>
+      <changefreq>yearly</changefreq>
+      <priority>0.3</priority>
+   </url>
+</urlset> 
