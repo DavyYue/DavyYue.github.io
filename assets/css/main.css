@@ -4163,6 +4163,13 @@
 					align: center;
 				}
 
+			.spotlight p{
+				align:center;
+				text-align:center;
+				margin-right: 10px;
+				margin-left:10px
+			}
+
 		/* Wrapper */
 
 			.wrapper {
@@ -4453,6 +4460,8 @@
 			.spotlight .p {
 				align:center;
 				text-align:center;
+				margin-right: 10px;
+				margin-left:10px
 			}
 
 		/* Wrapper */
@@ -4555,6 +4564,7 @@
 			align:center;
 			text-align:center;
 			margin-right: 10px;
+			margin-left:10px
 		}
 
 	/* Wrapper */
