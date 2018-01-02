@@ -3115,13 +3115,15 @@
 			}
 
 		table td {
+			color: #ececec;
+			font-weight: 300;
 			padding: 0.75em 0.75em;
 		}
 
 		table th {
 			color: #ffffff;
-			font-size: 0.9em;
-			font-weight: 300;
+			font-size: 0.99em;
+			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
 		}
@@ -3139,6 +3141,7 @@
 		}
 
 			table.alt tbody tr td {
+				color: #ffffff;
 				border: solid 1px rgba(255, 255, 255, 0.3);
 				border-left-width: 0;
 				border-top-width: 0;
