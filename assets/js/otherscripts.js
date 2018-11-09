@@ -1,8 +1,8 @@
 //Typed animation
 function newTyped(){}$(function(){$("#typed").typed({
     // Change to edit type effect
-    strings: ["software development", "hacking", "latin dancing", "overturning poor entrenched conventions", "entrepreneurship", 
-    "origami", "bachata dancing", "east-coast swing dancing", "painting", "community building", "equal inclusion", "fitness"],
+    strings: ["software development", "creative writing", "hacking innovative ideas", "latin dancing", "optimizing agile flow", "entrepreneurship", 
+    "origami", "dancing bachata", "strong virtues", "east-coast swing dances", "painting", "community building", "equal inclusion", "fitness"],
     typeSpeed:90,backDelay:2000,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})}
     );
 
