@@ -12,6 +12,8 @@ $(function () {
       "turn bugs into features",
       "do public speaking",
       "design luxury decor",
+      "read great novels",
+      "eat delicious sushi",
     ],
     typeSpeed: 90,
     backDelay: 2000,
