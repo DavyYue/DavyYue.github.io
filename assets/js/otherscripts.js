@@ -10,6 +10,8 @@ $(function () {
       "explore creativity",
       "dance east-coast swing",
       "turn bugs into features",
+      "do public speaking",
+      "design luxury decor",
     ],
     typeSpeed: 90,
     backDelay: 2000,
